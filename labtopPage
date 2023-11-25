@@ -1,0 +1,1281 @@
+<html>
+
+   <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="mobliePage.css">
+
+<body>
+<!-- navbar navbar-inverse navbar-static-top used for static hamburger menu -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="index.html" >HOME</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PRODUCTS <span class="caret"></span></a>
+        <ul class="dropdown-menu" id="subNav">
+          <li class="active"><a href="mobilePage.html">MOBILES</a></li>
+          <li><a href="labtopPage.html">LABTOPS</a></li>
+          <li><a href="tabletPage.html">TABLETS</a></li>
+          <li><a href="headsetPage.html">HEADSETS</a></li>
+          <li><a href="televisionPage.html">TELEVISION</a></li>
+          <li><a href="AccessorisPage.html">MOBILE ACCESSORIES</a></li>
+        </ul>
+      </li>
+        <li><a href="service.html">SERVICES</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+     
+      </ul>
+       <ul class="nav navbar-nav navbar-right">
+      <li><a href="register.html"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+    </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<!-- Nav Bar End -->
+
+<!-- Carousel Start -->
+
+<div class="">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img class="img-responsive" src="images/mobilePage/1caroimg.png" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img class="img-responsive" src="images/mobilePage/2caroimg.png" alt="Los Angeles" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img class="img-responsive" src="images/mobilePage/3caroimg.png" alt="Los Angeles" style="width:100%;">
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+  <h2 class="text-center">MOBILES</h2>
+<!-- Carousel End -->
+<div class="grid-layouts container-fluid">
+  <div class="row">
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/vivov27.png">
+        </picture>
+        <div class="details">
+          <p >
+            <b>Vivo V27</b>
+          </p>
+          <samp><b>&#8377</b></samp> 
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">RAM 8GB, ROM 512 GB, SNAPDRAGON 865, AMLOD DISPLAY...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/vivoy35.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>PRODUCT NAME</b>
+          </p>
+          <samp><b>&#8377</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">RAM 8GB, ROM 512 GB, SNAPDRAGON 865, AMLOD DISPLAY...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/vivoy16.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>PRODUCT NAME</b>
+          </p>
+          <samp><b>&#8377</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">RAM 8GB, ROM 512 GB, SNAPDRAGON 865, AMLOD DISPLAY...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/vivot2x.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>PRODUCT NAME</b>
+          </p>
+          <samp><b>&#8377</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">RAM 8GB, ROM 512 GB, SNAPDRAGON 865, AMLOD DISPLAY...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="grid-layouts container-fluid">
+  <div class="row">
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/4(realme C51 (Mint Green, 64 GB)  (4 GB RAM)) 8,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>realme C51</b>
+          </p>
+          <samp><b>&#8377 8,999</b></samp> 
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">realme C51 (Mint Green, 64 GB)  (4 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/5 REDMI 12C (Lavender Purple, 64 GB) 6,799.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>REDMI 12C</b>
+          </p>
+          <samp><b>&#8377 6,799</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">REDMI 12C (Lavender Purple, 64 GB)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/6 SAMUNG Galaxy F04(Opal Green, 64Gb) 8,499.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>SAMUNG Galaxy F04</b>
+          </p>
+          <samp><b>&#8377 35,599</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">SAMUNG Galaxy F04(Opal Green, 64 GB)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/7 REDMI 12(Pastel Blue, 128 GB) 9,299.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>REDMI 12</b>
+          </p>
+          <samp><b>&#8377 9,299</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">REDMI 12 (Pastel Blue, 128 GB)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="grid-layouts container-fluid">
+  <div class="row">
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/8 Infinix HOT 30i (Marigold, 128 GB) 9,499.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>Infinix HOT 30i</b>
+          </p>
+          <samp><b>&#8377 9,499</b></samp> 
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">Infinix HOT 30i (Marigold, 128 GB)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/9 realme C53 (Champion Gold, 128 GB) 11,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>realme C53</b>
+          </p>
+          <samp><b>&#8377 11,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">realme C53 (Champion Gold, 128 GB)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/10 Infinix Note 30 5G (Interstellar Blue, 256 GB) 15,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>Infinix Note 30</b>
+          </p>
+          <samp><b>&#8377 15,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">Infinix Note 30 5G (Interstellar Blue, 256 GB)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/11 REDMI 12 (Moonstone Silver, 128 GB) 10,499.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>REDMI 12</b>
+          </p>
+          <samp><b>&#8377 10,499</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">REDMI 12 (Moonstone Silver, 128 GB...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="grid-layouts container-fluid">
+  <div class="row">
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/12 realme C51 (Mint Green, 64 GB)  (4 GB RAM) 14,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>realme C51</b>
+          </p>
+          <samp><b>&#8377 14,999</b></samp> 
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">realme C51 (Mint Green, 64 GB)  (4 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/13 APPLE iPhone 14 (Blue, 128 GB) 60,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>APPLE iPhone 14</b>
+          </p>
+          <samp><b>&#8377 60,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">APPLE iPhone 14 (Blue, 128 GB)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/14 APPLE iPhone 14 (Blue, 128 GB) 23,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>APPLE iPhone 14</b>
+          </p>
+          <samp><b>&#8377 23,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">APPLE iPhone 14 (Blue, 128 GB)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/15 REDMI Note 12 Pro+ 5G (Iceberg Blue, 256 GB)  (8 GB RAM) 27,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>REDMI Note 12 Pro</b>
+          </p>
+          <samp><b>&#8377 27,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">REDMI Note 12 Pro+ 5G (Iceberg Blue, 256 GB)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="grid-layouts container-fluid">
+  <div class="row">
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/16 MOTOROLA Edge 40 (Nebula Green, 256 GB)  (8 GB RAM) 26,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>MOTOROLA Edge 40</b>
+          </p>
+          <samp><b>&#8377 26,999</b></samp> 
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">MOTOROLA Edge 40 (Nebula Green, 256 GB)  (8 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/17 realme 10 Pro+ 5G (Hyperspace, 128 GB)  (6 GB RAM) 24,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>realme 10 Pro+</b>
+          </p>
+          <samp><b>&#8377 24,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">realme 10 Pro+ 5G (Hyperspace, 128 GB)  (6 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/18 realme 11x 5G (Purple Dawn, 128 GB)  (6 GB RAM) 14,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>realme 11x</b>
+          </p>
+          <samp><b>&#8377 14,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">realme 11x 5G (Purple Dawn, 128 GB)  (6 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/19 realme C55 (Sunshower, 64 GB)  (4 GB RAM) 10,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>realme C55</b>
+          </p>
+          <samp><b>&#8377 10,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">realme C55 (Sunshower, 64 GB)  (4 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="grid-layouts container-fluid">
+  <div class="row">
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/20 POCO M6 Pro 5G (Power Black, 128 GB)  (6 GB RAM) 12,249.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>POCO M6 Pro</b>
+          </p>
+          <samp><b>&#8377 12,249</b></samp> 
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">POCO M6 Pro 5G (Power Black, 128 GB)  (6 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/21 POCO C55 (Forest Green, 128 GB)  (6 GB RAM) 7,799.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>POCO C55</b>
+          </p>
+          <samp><b>&#8377 7,799</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">POCO C55 (Forest Green, 128 GB)  (6 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/22 POCO F5 5G (Snowstorm White, 256 GB)  (8 GB RAM) 29,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>POCO F5</b>
+          </p>
+          <samp><b>&#8377 29,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">POCO F5 5G (Snowstorm White, 256 GB)  (8 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/23 SAMSUNG Galaxy A14 5G (Black, 128 GB)  (6 GB RAM) 17,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>SAMSUNG Galaxy A14</b>
+          </p>
+          <samp><b>&#8377 17,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">SAMSUNG Galaxy A14 5G (Black, 128 GB)  (6 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="grid-layouts container-fluid">
+  <div class="row">
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/24 SAMSUNG Galaxy F14 5G (GOAT Green, 128 GB)  (6 GB RAM) 14,990.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>SAMSUNG Galaxy F14</b>
+          </p>
+          <samp><b>&#8377  14,990</b></samp> 
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">SAMSUNG Galaxy F14 5G (GOAT Green, 128 GB)  (6 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/26 SAMSUNG Galaxy S22 Ultra 5G (Burgundy, 256 GB)  (12 GB RAM) 82,000.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>SAMSUNG Galaxy S22</b>
+          </p>
+          <samp><b>&#8377 82,000</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">SAMSUNG Galaxy S22 Ultra5G (Burgundy, 256 GB)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/27 vivo Y100 5G (Twilight Gold, 128 GB)  (8 GB RAM) 21,899.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>vivo Y100</b>
+          </p>
+          <samp><b>&#8377 21,899</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">vivo Y100 5G (Twilight Gold, 128 GB)  (8 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/28 vivo V27 Pro 5G (Magic Blue, 256 GB)  (8 GB RAM) 36,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>vivo V27 Pro</b>
+          </p>
+          <samp><b>&#8377 36,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">vivo V27 Pro 5G (Magic Blue, 256 GB)  (8 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="grid-layouts container-fluid">
+  <div class="row">
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/29 OPPO A77 (Sunset Orange, 128 GB)  (4 GB RAM) 15,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>OPPO A77</b>
+          </p>
+          <samp><b>&#8377 15,999</b></samp> 
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">OPPO A77 (Sunset Orange, 128 GB)  (4 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/30 OPPO A38 (Glowing Gold, 128 GB)  (4 GB RAM) 12,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>OPPO A38</b>
+          </p>
+          <samp><b>&#8377 12,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">OPPO A38 (Glowing Gold, 128 GB)  (4 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/31 OPPO Find N3 Flip (Cream Gold, 256 GB)  (12 GB RAM) 94,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>OPPO Find N3 Flip</b>
+          </p>
+          <samp><b>&#8377 94,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">OPPO Find N3 Flip (Cream Gold, 256 GB)  (12 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/32 OPPO A77 (Sky Blue, 64 GB)  (4 GB RAM) 15,499.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>OPPO A77</b>
+          </p>
+          <samp><b>&#8377 15,499</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">OPPO A77 (Sky Blue, 64 GB)  (4 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="grid-layouts container-fluid">
+  <div class="row">
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/33 Infinix SMART 7 (Emerald Green, 64 GB)  (4 GB RAM) 7,499.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>Infinix SMART 7</b>
+          </p>
+          <samp><b>&#8377 7,499</b></samp> 
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">Infinix SMART 7 (Emerald Green, 64 GB)  (4 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/34 OPPO A58 (Dazzling Green, 128 GB)  (6 GB RAM) 13,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>OPPO A58</b>
+          </p>
+          <samp><b>&#8377 13,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">OPPO A58 (Dazzling Green, 128 GB)  (6 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/35 OnePlus 11 5G (Titan Black, 256 GB)  (16 GB RAM) 44,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b> OnePlus 11</b>
+          </p>
+          <samp><b>&#8377 44,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">OnePlus 11 5G (Titan Black, 256 GB)  (16 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/36 I Kall S1 Plus (Golden, 128 GB)  (6 GB RAM) 10,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>I Kall S1 Plus</b>
+          </p>
+          <samp><b>&#8377 10,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">I Kall S1 Plus (Golden, 128 GB)  (6 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="grid-layouts container-fluid">
+  <div class="row">
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/37 vivo Y17s (Glitter Purple, 128 GB)  (4 GB RAM) 14,490.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>vivo Y17s</b>
+          </p>
+          <samp><b>&#8377 14,490</b></samp> 
+        </div>
+        <div id="cardPara">
+           <p class="text-muted"> vivo Y17s (Glitter Purple, 128 GB)  (4 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/38 vivo T1 44W (Midnight Galaxy, 128 GB)  (4 GB RAM) 14,499.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>vivo T1</b>
+          </p>
+          <samp><b>&#8377 14,499</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">vivo T1 44W (Midnight Galaxy, 128 GB)  (4 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/39 vivo Y35 (Agate Black, 128 GB)  (8 GB RAM) 15,800.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>vivo Y35</b>
+          </p>
+          <samp><b>&#8377 15,800</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">vivo Y35 (Agate Black, 128 GB)  (8 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6 col-12" id="product">
+        <picture>
+           <img src="images/mobilePage/40 vivo T1X (Gravity Black, 64 GB)  (4 GB RAM) 11,999.webp">
+        </picture>
+        <div class="details">
+          <p >
+            <b>vivo T1X</b>
+          </p>
+          <samp><b>&#8377 11,999</b></samp>
+        </div>
+        <div id="cardPara">
+           <p class="text-muted">vivo T1X (Gravity Black, 64 GB)  (4 GB RAM)...<samp><a href="#">view More</a></samp></p>
+        </div>
+        <div class="button">
+          <p>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+            <strong>&star;</strong>
+          </p>
+          <button id="btn" type="button" class="btn btn-success btn-block btn-xs"><a href="#">ADD CART</a></button>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+<!--footer-->
+<footer class="footer1">
+<div class="container">
+
+<div class="row"><!-- row -->            
+    <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+      <ul class="list-unstyled clear-margins"><!-- widgets -->
+          <li class="widget-container widget_nav_menu"><!-- widgets list -->
+            <h1 class="title-widget">PRODUCT'S</h1>  
+              <ul>
+                <li><a  href="#"><i class="fa fa-angle-double-right"></i>Servies</a></li>
+                <li><a  href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
+                <li><a  href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
+                <li><a  href="#"><i class="fa fa-angle-double-right"></i>Teams & Condition</a></li>
+                <li><a  href="#"><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
+              </ul>
+        </li>
+      </ul>
+   </div><!-- widgets column left end -->
+              
+              
+              
+    <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+        <ul class="list-unstyled clear-margins"><!-- widgets -->
+           <li class="widget-container widget_nav_menu"><!-- widgets list -->
+               <h1 class="title-widget">OUR PRODUCTS</h1>
+                 <ul>
+                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>Mobiles</a></li>
+                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>Labtops</a></li>
+                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>Tablets</a></li>
+                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>Headsets</a></li>
+                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>Televisions</a></li>
+                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>Mobile Accessoris</a></li>
+                </ul>
+             </li>
+         </ul>
+      </div><!-- widgets column left end -->
+              
+              
+              
+    <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+       <ul class="list-unstyled clear-margins"><!-- widgets -->
+          <li class="widget-container widget_nav_menu"><!-- widgets list -->
+              <h1 class="title-widget">FOLLOW US</h1>
+             <ul>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i> Twitter</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i>instagram</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i>facebook</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i>youtube</a></li>
+             </ul>
+           </li>
+         </ul>
+     </div><!-- widgets column left end -->
+              
+              
+
+<<div class="col-lg-3 col-md-3"><!-- widgets column center -->
+   <ul class="list-unstyled clear-margins"><!-- widgets -->
+      <li class="widget-container widget_recent_news"><!-- widgets list -->
+          <h1 class="title-widget">Contact Detail </h1>
+          <div class="footerp"> 
+            <h2 class="title-median">MAFIA GROUP</h2>
+            <p><b>Email id:</b> <a href="#">thamimOfficial244@gmail.com</a></p>
+            <p>
+            <b>Helpline Numbers</b>
+            <b style="color:#ffc106;">(8AM to 10PM):</b>+91-8130890090, +91-8130190010  </p>
+            <p><b>Corp Office / Postal Address</b></p>
+            <p><b>Phone Numbers : </b> 7042827160, </p>
+            <p> 011-27568832, 9868387223</p>
+          </div>
+
+          <div class="social-icons">
+            <ul class="nomargin">
+              <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
+              <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
+              <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
+              <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+            </ul>
+          </div>
+      </li>
+  </ul>
+</div>
+              </div>
+</div>
+</footer>
+<!--header-->
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="copyright">
+          © 2015, Webenlance, All rights reserved
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="design">
+           <a href="#">Franchisee </a> |  <a target="_blank" href="http://www.webenlance.com">Web Design & Development by Webenlance</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -5,8 +5,7 @@ padding: 0;
 margin-top: 50px;
 font-family: 'poppins', serif;
 background-color: whitesmoke;
-}
-                                        /*Root Selector Start*/
+}                                        /*Root Selector Start*/
 :root{
 --bg-color:#f0ad4e;
 }
@@ -17,9 +16,7 @@ background-color: whitesmoke;
 .navbar a:hover{
 	text-decoration: none;
 	color: white;
-	}
- 
-                                          /*Navigation Bar Start*/
+}                                         /*Navigation Bar Start*/
 .navbar {
   margin-bottom: 0;
   background-color: var(--bg-color);
@@ -63,16 +60,18 @@ background-color: whitesmoke;
   background: white;
   transition: 0.5s;
   padding: 10px;
-  margin:30px 17px;
+  margin:30px 17px; 
 }
 picture{
-  overflow:hidden ;
+  overflow:hidden;
   margin-bottom: 50px
 }
-picture img{
-  width: 70%;
-  height: 250px;
-  margin:20px 35px;
+picture img
+{
+  width: 80%;
+  object-fit:contain;
+  aspect-ratio: 4/3;
+  margin:15px 30px;
 }
 .details{
 	display: flex;
@@ -83,10 +82,18 @@ picture img{
 }
 #cardPara p{
 	text-align: justify;
+  height: 60px;
+  overflow: hidden;
+
 }
 .button {
 	font-size: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
+}
+.button button{
+  position: absolute;
+  left: 70%;
+  bottom:5% ;
 }
 .button a{
   color: white;
@@ -103,8 +110,7 @@ picture img{
 /*Product End*/
 
 
-/*footer start*/
-
+              /*footer start*/
 .footer1 {
   background-color:#ffd392;
   padding-top: 40px;
@@ -190,8 +196,8 @@ picture img{
 .design a {
     color: #fff;
 }
+               /*footer end*/
 
-/*footer end*/
 
 
 /*Media Query Start*/
@@ -201,7 +207,6 @@ picture img{
 #product{
   width:23%;/**/
   height: 400px;/**/
-  background:;
   transition: 0.5s;
   padding: 10px;
   margin:30px 8px;/**/

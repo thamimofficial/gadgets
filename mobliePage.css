@@ -58,7 +58,7 @@ color: #fff !important;
 
 #product{
   width:22%;
-  height: 440px;
+  height: auto;
   background: white;
   transition: 0.5s;
   padding: 10px;
@@ -74,9 +74,9 @@ picture{
 }
 picture img{
   width: 70%;
-  height: 250px;
-  margin:0px 35px;
-  padding-top: 10px;
+  object-fit:contain;
+  aspect-ratio: 5/5;
+  margin:15px 30px;
 }
 .details{
   display: flex;
@@ -87,6 +87,8 @@ picture img{
 }
 #cardPara p{
   text-align: justify;
+  height: 60px;
+  overflow: hidden;
 }
 .button {
   font-size: 20px;
@@ -199,7 +201,7 @@ picture img{
 
   #product{
   width:23%;/**/
-  height: 400px;/**/
+  height: auto;/**/
   background:;
   transition: 0.5s;
   padding: 10px;
@@ -215,8 +217,10 @@ picture{
   justify-content: center;
 }
 picture img{
-  width: 80%;
-  height: 190px;
+  width: 70%;
+  object-fit:contain;
+  aspect-ratio: 5/5;
+  margin:15px 30px;
 }
 .details{
   display: flex;
@@ -252,7 +256,7 @@ picture img{
 }
 
   #product{
-  width:80%;/**/
+  width:65%;/**/
   height: auto;/**/
   background: white;
   transition: 0.5s;
@@ -268,9 +272,10 @@ picture{
   margin-bottom: 50px;
 }
 picture img{
-  width: 50%;
-  height: auto;
-  margin:0px 70px 30px 70px;
+  width: 70%;
+  object-fit:contain;
+  aspect-ratio: 5/5;
+  margin:15px 40px;
 
  
 }

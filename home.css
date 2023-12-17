@@ -68,9 +68,9 @@ picture{
 }
 picture img
 {
-  width: 80%;
+  width: 70%;
   object-fit:contain;
-  aspect-ratio: 4/3;
+  aspect-ratio: 5/5;
   margin:15px 30px;
 }
 .details{
@@ -221,8 +221,10 @@ picture{
   justify-content: center;
 }
 picture img{
-  width: 80%;
-  height: 190px;
+  width: 70%;
+  object-fit:contain;
+  aspect-ratio: 5/5;
+  margin:15px 30px;
 }
 .details{
   display: flex;
@@ -234,6 +236,11 @@ picture img{
 .button {
   font-size: 20px;
   margin-bottom: 10px;
+}
+.button button{
+  position: absolute;
+  left: 70%;
+  bottom:4%;
 }
 .button a{
   color: white;
@@ -257,7 +264,7 @@ picture img{
   display: block;
 }
   #product{
-  width:80%;/**/
+  width:65%;/**/
   height: auto;/**/
   background: white;
   transition: 0.5s;
@@ -272,10 +279,9 @@ picture{
 }
 picture img{
   width: 70%;
-  height: auto;
-  margin:50px 40px;
-
- 
+  object-fit:contain;
+  aspect-ratio: 5/5;
+  margin:15px 40px;
 }
 .details{
   display: flex;
@@ -287,6 +293,11 @@ picture img{
 .button {
   font-size: 20px;
   margin-bottom: 10px;
+}
+.button button{
+  position: absolute;
+  left: 70%;
+  bottom:5.5%;
 }
 .button a{
   color: white;
